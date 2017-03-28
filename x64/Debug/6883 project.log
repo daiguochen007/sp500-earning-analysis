@@ -1,0 +1,27 @@
+﻿生成启动时间为 2017/1/15 13:57:26。
+     1>项目“C:\Users\Dai\Desktop\NYU poly\Course\2nd semester\6883 Financial Computing\project\Qt GUI 6883 project\6883 project\6883 project.vcxproj”在节点 2 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_mywindow.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_mywindow.cpp, GeneratedFiles\Release\moc_mywindow.cpp.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\Qt5.3.2\5.3\msvc2013_64_opengl\include /I.\GeneratedFiles\Debug /IC:\Qt\Qt5.3.2\5.3\msvc2013_64_opengl\include\QtCore /IC:\Qt\Qt5.3.2\5.3\msvc2013_64_opengl\include\QtGui /IC:\Qt\Qt5.3.2\5.3\msvc2013_64_opengl\include\QtWidgets /Zi /nologo /W1 /WX- /Od /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt ExcelImports.cpp mywindow.cpp
+         ExcelImports.cpp
+         mywindow.cpp
+         正在生成代码...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Dai\Desktop\NYU poly\Course\2nd semester\6883 Financial Computing\project\Qt GUI 6883 project\x64\Debug\\6883 project.exe" /NOLOGO /LIBPATH:C:\Qt\Qt5.3.2\5.3\msvc2013_64_opengl\lib /LIBPATH:"C:\Users\Dai\Desktop\NYU poly\Course\2nd semester\6883 Financial Computing\libcurl x64\curl-7.40.0-devel-mingw64\lib64" /LIBPATH:"C:\Users\Dai\Desktop\NYU poly\Course\2nd semester\6883 Financial Computing\multi-thread\Pre-built.2\lib\x64" qtmaind.lib Qt5Cored.lib Qt5Guid.lib Qt5Widgetsd.lib "C:\Users\Dai\Desktop\NYU poly\Course\2nd semester\6883 Financial Computing\multi-thread\Pre-built.2\lib\x64\pthreadVC2.lib" "C:\Users\Dai\Desktop\NYU poly\Course\2nd semester\6883 Financial Computing\libcurl x64\curl-7.40.0-devel-mingw64\lib64\libcurl.lib" pthreadVC2.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Dai\Desktop\NYU poly\Course\2nd semester\6883 Financial Computing\project\Qt GUI 6883 project\x64\Debug\6883 project.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Dai\Desktop\NYU poly\Course\2nd semester\6883 Financial Computing\project\Qt GUI 6883 project\x64\Debug\6883 project.lib" /MACHINE:X64 x64\Debug\StringConversions.obj
+         x64\Debug\ExcelDriver.obj
+         x64\Debug\ExcelImports.obj
+         x64\Debug\ExcelMechanisms.obj
+         x64\Debug\DatasimException.obj
+         x64\Debug\moc_mywindow.obj
+         x64\Debug\qrc_myclass.obj
+         x64\Debug\main.obj
+         x64\Debug\Matrix.obj
+         x64\Debug\mywindow.obj
+         x64\Debug\stdafx.obj
+         x64\Debug\stock_result.obj
+         6883 project.vcxproj -> C:\Users\Dai\Desktop\NYU poly\Course\2nd semester\6883 Financial Computing\project\Qt GUI 6883 project\x64\Debug\6883 project.exe
+     1>已完成生成项目“C:\Users\Dai\Desktop\NYU poly\Course\2nd semester\6883 Financial Computing\project\Qt GUI 6883 project\6883 project\6883 project.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:06.20

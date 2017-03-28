@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MyClassClass</class>
+ <widget class="QMainWindow" name="MyClassClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1112</width>
+    <height>789</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>0</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>6883 Project 4.1</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>700</y>
+      <width>701</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 italic 9pt &quot;Comic Sans MS&quot;;
+color: rgb(0, 170, 255);
+text-decoration: underline;</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Group Member: Guochen Dai, Yi Zhou, Yang Yi, Yifei Zhou&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="textBrowser">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>10</y>
+      <width>831</width>
+      <height>641</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="listWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>241</width>
+      <height>641</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>700</y>
+      <width>81</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 italic 8pt &quot;Georgia&quot;;
+color:rgb(0, 0, 127)
+</string>
+    </property>
+    <property name="text">
+     <string>Help</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>890</x>
+      <y>660</y>
+      <width>191</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 87 9pt &quot;Arial Black&quot;;
+color: rgb(0, 0, 127);</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt; font-weight:600; font-style:normal; color:#1a6ab4;&quot;&gt;6883 Project Version 4.1&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>700</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Test</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1112</width>
+     <height>37</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu1">
+    <property name="title">
+     <string>No.1</string>
+    </property>
+    <addaction name="actionGet_stock_data_for_2015_Q3"/>
+    <addaction name="actionGet_all_stock_data"/>
+    <addaction name="actionGet_stock_data_for_2015_Q4"/>
+   </widget>
+   <widget class="QMenu" name="menuNo_2">
+    <property name="title">
+     <string>No.2</string>
+    </property>
+    <addaction name="actionGet_stock"/>
+    <addaction name="actionDisplay_stock_price_in_Excel"/>
+   </widget>
+   <widget class="QMenu" name="menuNo_3">
+    <property name="title">
+     <string>No.3</string>
+    </property>
+    <widget class="QMenu" name="menuBEAT">
+     <property name="title">
+      <string>BEAT</string>
+     </property>
+     <addaction name="actionAAR"/>
+     <addaction name="actionCAAR"/>
+    </widget>
+    <widget class="QMenu" name="menuMISS">
+     <property name="title">
+      <string>MISS</string>
+     </property>
+     <addaction name="actionAAR_3"/>
+     <addaction name="actionCAAR_3"/>
+    </widget>
+    <widget class="QMenu" name="menuMEET">
+     <property name="title">
+      <string>MEET</string>
+     </property>
+     <addaction name="actionAAR_2"/>
+     <addaction name="actionCAAR_2"/>
+    </widget>
+    <addaction name="menuBEAT"/>
+    <addaction name="menuMEET"/>
+    <addaction name="menuMISS"/>
+   </widget>
+   <widget class="QMenu" name="menuNo_4">
+    <property name="title">
+     <string>No.4</string>
+    </property>
+    <addaction name="actionShow_excel_for_CAAR"/>
+   </widget>
+   <widget class="QMenu" name="menuNo_5">
+    <property name="title">
+     <string>No.5</string>
+    </property>
+    <addaction name="actionClear_screen"/>
+    <addaction name="actionExit_Program"/>
+   </widget>
+   <addaction name="menu1"/>
+   <addaction name="menuNo_2"/>
+   <addaction name="menuNo_3"/>
+   <addaction name="menuNo_4"/>
+   <addaction name="menuNo_5"/>
+  </widget>
+  <action name="actionGet_all_stock_data">
+   <property name="text">
+    <string>Get stock data for 2015 Q3</string>
+   </property>
+  </action>
+  <action name="actionAAR">
+   <property name="text">
+    <string>AAR</string>
+   </property>
+  </action>
+  <action name="actionCAAR">
+   <property name="text">
+    <string>CAAR</string>
+   </property>
+  </action>
+  <action name="actionAAR_2">
+   <property name="text">
+    <string>AAR</string>
+   </property>
+  </action>
+  <action name="actionCAAR_2">
+   <property name="text">
+    <string>CAAR</string>
+   </property>
+  </action>
+  <action name="actionAAR_3">
+   <property name="text">
+    <string>AAR</string>
+   </property>
+  </action>
+  <action name="actionCAAR_3">
+   <property name="text">
+    <string>CAAR</string>
+   </property>
+  </action>
+  <action name="actionShow_excel_for_CAAR">
+   <property name="text">
+    <string>Show excel for CAAR</string>
+   </property>
+  </action>
+  <action name="actionExit_Program">
+   <property name="text">
+    <string>Exit Program</string>
+   </property>
+  </action>
+  <action name="actionGet_stock">
+   <property name="text">
+    <string>Get stock infomation</string>
+   </property>
+  </action>
+  <action name="actionClear_screen">
+   <property name="text">
+    <string>Clear screen</string>
+   </property>
+  </action>
+  <action name="actionDisplay_stock_price_in_Excel">
+   <property name="text">
+    <string>Display stock price in Excel</string>
+   </property>
+  </action>
+  <action name="actionGet_stock_data_for_2015_Q3">
+   <property name="text">
+    <string>Get stock data for 2015 Q2</string>
+   </property>
+  </action>
+  <action name="actionGet_stock_data_for_2015_Q4">
+   <property name="text">
+    <string>Get stock data for 2015 Q4</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="myclass.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>MyClassClass</receiver>
+   <slot>help()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>26</x>
+     <y>737</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>40</x>
+     <y>444</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>MyClassClass</receiver>
+   <slot>test()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>199</x>
+     <y>750</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>324</x>
+     <y>729</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>msgClick()</slot>
+  <slot>help()</slot>
+  <slot>test()</slot>
+ </slots>
+</ui>
